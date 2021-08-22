@@ -373,13 +373,41 @@ img {
 
 h1 {
   font-size: 4rem;
-  font-weight: 900;
+  font-weight: 700;
+  margin: 0;
 }
 
 h2 {
   font-size: 3.6rem;
+  margin: 0;
 }
 
 h3 {
   font-size: 3rem;
+  margin: 0;
+}
+
+.header {
+  background-color: #4CB8B3;
+}
+.header .contenido-header {
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  color: #FFF;
+}
+
+.navegacion-principal {
+  display: flex;
+  gap: 2rem;
+}
+.navegacion-principal a {
+  color: #FFF;
+  font-size: 2rem;
+}
+.navegacion-principal a:hover {
+  color: #FEF46D;
 }

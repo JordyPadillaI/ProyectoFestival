@@ -1,15 +1,6 @@
-//Aquí no se usa "root:" para definir variables como en CSS, se usa un signo $ antes del nombre de la variable
-$fuentePrincipal: "Arial";
+//Podemos importar de otros archivos SASS
+@import 'base/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import 'base/variables';
+@import 'base/globales';
 
-body {
-    font-family: $fuentePrincipal;
-}
-
-h1 {
-    font-family: $fuentePrincipal;
-    margin-top: 20px;
-}
-
-p {
-    font-family: $fuentePrincipal;
-}
